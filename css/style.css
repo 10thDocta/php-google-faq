@@ -5,6 +5,12 @@
 
 a {
   text-decoration: none;
+  color: rgb(88, 88, 88);
+  font-weight: 700;
+}
+
+header {
+  border-bottom: 1px solid lightgrey;
 }
 
 .header_top img {
@@ -22,4 +28,5 @@ a {
 .header_bottom li {
   list-style: none;
   display: inline-block;
+  margin-right: 30px;
 }
