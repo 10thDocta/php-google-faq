@@ -2,3 +2,24 @@
   width: 70%;
   margin: 60px auto;
 }
+
+a {
+  text-decoration: none;
+}
+
+.header_top img {
+  vertical-align: middle;
+}
+
+.header_top h4 {
+  display: inline-block;
+}
+
+.header_bottom ul {
+  list-style: none;
+}
+
+.header_bottom li {
+  list-style: none;
+  display: inline-block;
+}
