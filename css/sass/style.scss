@@ -9,15 +9,18 @@ $headerHeight: 81px;
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* ------- MIX ------- */
 .container {
   width: 70%;
   margin: 60px auto;
-}
-
-a {
-  text-decoration: none;
-  color: $headerColor;
-  font-weight: 700;
 }
 
 header {
@@ -62,6 +65,8 @@ header {
 
   a {
     font-size: 14px;
+    color: $headerColor;
+    font-weight: 700;
   }
 
   a.active {
@@ -81,7 +86,7 @@ main {
 
   p {
     margin-top: 10px;
-    font-size: 14px;
+    font-size: 13px;
     color: $mainP;
   }
 }
